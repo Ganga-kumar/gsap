@@ -31,7 +31,7 @@ nav{
 }
 
 nav a, i{
-    font-size: 1.5vw;
+    font-size:medium;
     text-decoration: none;
     color: #fff;
 }
@@ -42,7 +42,7 @@ nav a, i{
 }
 
 nav i{
-    font-size: 1.5vw;
+    font-size: medium;
 }
 
 .header{
@@ -51,13 +51,13 @@ nav i{
     justify-content:right;
     width: 100%;
     height: 100vh;
-    background-image: url("./WhatsApp\ Image\ 2025-08-31\ at\ 00.46.24_8cfd0582.jpg");
+    background-image: url("https://png.pngtree.com/background/20210711/original/pngtree-golden-glitter-and-shiny-golden-frame-on-brown-background-picture-image_1160065.jpg");
 }
 
 .header h1{
-    font-size: 17vw;
+    font-size: 8vw;
     font-family: "EB Garamond", serif;
-    color: #fff;
+    color: white;
     width: 100%;
 }
 
@@ -78,42 +78,12 @@ nav i{
 
 }
 
-#choclate2{
-    position: absolute;
-    width: 15%;
-    z-index: 3;
-    top: 70%;
-    right: 35%;
-    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
-
-}
-
-#almod{
-    top: 10%;
-    left: 5%;
-    transform: rotate(60deg);
-    position: absolute;
-    width: 7%;
-    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
-
-}
-
-#almod2{
-    top: 70%;
-    left: 80%;
-    transform: rotate(-90deg);
-    position: absolute;
-    width: 10%;
-    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
-
-}
-
 
 .about{
     display: flex;
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(90deg, #a9774e, #864831, #402014);
+    background-image: linear-gradient(90deg, #000000, #000000, #402014);
 }
 
 .about-left, .about-right{
@@ -122,8 +92,8 @@ nav i{
     justify-content: center;
     flex-direction: column;
     gap: 5vh;
-    width: 50%;
-    height: 100%;
+    width: 60%;
+    height: 60%;
 }
 
 .about-left img{
@@ -148,7 +118,7 @@ nav i{
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 90vhvh;
+    height: 90;
 }
 .product img{
     width: 100%;
